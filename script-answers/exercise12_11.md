@@ -29,17 +29,21 @@ This command returns
 `SET todoCounter 9001`
 
 This value can be seen from the application:
+
 <img src="./pictures/todo_9001.png" />
 
 ### Create a new todo with Postman
 <img src="./pictures/create_todo_postman.png"/>
 
 The counter_value also increased in the application:
+
 <img src="./pictures/todo_9002.png" />
 
 ### Delete the key from cli
 `DEL todoCounter`
+
 After adding a new todo, the value of "todoCounter" key becomes 1:
+
 <img src="./pictures/todo_1.png" />
 <img src="./pictures/cli_1.png" />
 
