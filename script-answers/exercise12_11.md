@@ -1,5 +1,5 @@
 ### Start a redis container
-``docker-compose -f docker-compose.dev.yml up`
+`docker-compose -f docker-compose.dev.yml up`
 
 ### Shell into the redis container open redis cli
 ```
