@@ -14,5 +14,6 @@ use the_database
 
 ### Ensure that the new todo has been inserted
 `db.todos.find({})`
+
 <img src="./pictures/insert_todo_mongo.png"/>
 
