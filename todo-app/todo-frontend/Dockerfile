@@ -5,7 +5,8 @@ RUN npm ci
 CMD ["npm", "test"]
 
 FROM test-stage as build-stage
-ENV REACT_APP_BACKEND_URL=http://localhost:3000
+#use 3000 and without /api as backend url port if there is no nginx in front of backend
+ENV REACT_APP_BACKEND_URL=http://localhost:8080/api
 WORKDIR /usr/src/app
 RUN npm run build
 
